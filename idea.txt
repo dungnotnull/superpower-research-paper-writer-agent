@@ -1,0 +1,1 @@
+Tạo skill cho agent theo harness full flow tự đi tìm các bài nghiên cứu khoa học gần đây liên quan chủ đề được user đưa, tự tìm gap, tự lên plan viết outlier, tự chia agent viết từng phần, tự review nhau, tự kiểm chứng đánh giá, tự tìm reference phục vụ bài, viết bài ra file md và báo user.

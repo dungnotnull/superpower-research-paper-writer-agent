@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+
+# Data / Cache
+*.db
+tools/.doi_cache.json
+logs/
+*.log
+
+# Environment
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Base repo clone (reference only)
+_base-repo/
+
+# Generated output
+output/
+
+# IDE
+.vscode/
+.idea/
+
+# Knowledge brain auto-backup
+SECOND-KNOWLEDGE-BRAIN.md.bak
+
+# CommandCode
+.commandcode/
+
+# Git
+*.orig
+*.patch
+
+# Temp
+tmp/
+temp/
+COMMIT_MSG.txt

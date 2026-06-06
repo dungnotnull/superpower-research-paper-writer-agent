@@ -1,0 +1,27 @@
+{
+  "hooks": {
+    "SessionStart": [
+      "announce-rpw-loaded.sh"
+    ]
+  },
+  "cron": {
+    "weekly_knowledge_update": {
+      "schedule": "0 9 * * 1",
+      "command": "cd $PROJECT_ROOT && python tools/knowledge_updater.py --all-defaults --days 7 2>> logs/knowledge_updater.log",
+      "description": "Weekly Monday crawl: refresh SECOND-KNOWLEDGE-BRAIN with latest papers across default topics"
+    }
+  },
+  "tool_settings": {
+    "WebSearch": {
+      "max_results": 10,
+      "include_domains": [
+        "arxiv.org",
+        "semanticscholar.org",
+        "pubmed.ncbi.nlm.nih.gov",
+        "scholar.google.com",
+        "doi.org",
+        "crossref.org"
+      ]
+    }
+  }
+}
