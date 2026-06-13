@@ -31,7 +31,7 @@ Give it a research topic — get back a complete academic paper draft. The agent
 
 ## Pipeline (v2.0)
 
-`
+```
 INPUT: "Write a paper on [TOPIC]" + citation style (APA/MLA/IEEE)
   │
   ├─ Step 0a ─ Idea Evaluation (NEW, optional)
@@ -62,7 +62,7 @@ INPUT: "Write a paper on [TOPIC]" + citation style (APA/MLA/IEEE)
   │     5-dimension review + banned-vocabulary scan
   │
   └─ Assembly → output/paper-{topic}.md
-`
+```
 
 ---
 
@@ -188,15 +188,15 @@ This version integrates research methodology from [**Supervisor-Skills**](https:
 
 ### Knowledge Auto-Update
 
-`ash
+```
 python tools/knowledge_updater.py --topic "your research topic" --days 90
-`
+```
 
 ---
 
 ## Project Structure
 
-`
+```
 .
 ├── .claude/
 │   └── settings.json                    # Cron schedule + tool config
@@ -238,7 +238,7 @@ python tools/knowledge_updater.py --topic "your research topic" --days 90
 ├── README.md                             # This file (v2.0)
 ├── requirements.txt
 └── announce-rpw-loaded.sh
-`
+```
 
 ---
 
